@@ -1,0 +1,115 @@
+In this article on Devops we will try to understand what is Devops, why it is so popular nowadays in IT industry and will burst some myths also.
+
+what is devops?
+
+Devops is a set of software development & delivery principles and practises whose aim is to produce better business outcomes and better quality of work-life outcomes for those in the field. 
+Its main objective is to break down barriers to communication and collaboration between those who build software and those who look after it as it runs i.e. Software Development and Production/Operations teams. 
+It involves continous development, continous testing, continous integration, continous deployment and continous monitoring of the software or product throughout its development cycle. 
+
+
+
+Let's understand with an example
+Let's consider a small hypothetical example to illustrate. Let's say there is a company that is building an image classifier system as a new feature for their existing product. There are 4 developers, together they make a team, let's call it team A who write and execute the code to create image classifier system and there are 3 people in another team B who makes sure it this new feature work smoothly with the existing product in the real world environment and provide support for the users.
+
+
+Team A has just spent 5 months creating the best(according to them) image classifier system. It can easily classify the things and performing according to the expectations. Team A has built this image classifier system in their controlled dev environment and everything seems to be working very smoothly.
+
+Now they hand over their creation to Team B which fits this feature in existing product and takes it out into the real world. Now at this stage some problems occurs and Devops provide the solution of those problems. Lets's understanfd how.
+It turns out that the perfect image classifier system is not so perfect at all. It doesn’t classifying things properly when it has to classify very similar things. Now Team B is frustrated beacuse they have been waiting for this image classifier for so long and now it very hard for them to believe that image classifier is not serving as expected, it’s seems an unmitigated disaster. On the other hand, Team A is now in the defensive mode. They believe that everything was working perfectly during controlled testing conditions and the real mess now must be because of Team B’s poor execution.
+
+In conclusion, there is a sub-optimal product in the market, which users are not liking at all and it seems that corrections and improvements will now take almost as long as product roll-out did, and beacuse of all this two very competent teams now hate each other and their jobs.
+
+Team B had no involvement when the code was being written and the image classifier was actually being built while Team D was completely out of the picture when the image classifier went out into the real world. The result was a new feature was not ready for the market and a dev team that still doesn’t quite know how to resolve things.
+
+
+As anyone can imagine, now that image clssifier needs a lot of time to be market-ready which could be easily avoided if both teams had no imaginary wall between them. But as a result of no communication and collboration between development and production teams, that company ends up becoming inefficient and slow and there’s a good chance that it loses out to other competitor companies which are doing same mistakes and delivering well performing product in reasonable time.
+
+Due to problems like this companies started realising that keeping their development and production/operations teams isolated from each other was results in less efficient products & services and low delivery rate. Many processes in the process of development and deployment could have been easily automated to increase efficiency but were not being automated because the developers were unaware of them.
+
+Now here comes the role of Devops and reason why DevOps was created and why more than 70% of SMBs (Small and Medium Businesses) adopted DevOps Services in their companies in 2016. In our example a lot of frustration, headache/heartache and inefficiency could have been avoided if Team A and Team B worked with each other right from conception and execution to delivery and support.
+
+
+To deal such issues the concept of DevOps got acceptance by many began being adopted widely. DevOps nothing adds new  but it provides a set of philosophies, practices, and tools that help an organisation/company to deliver better products faster by facilitating an integration of the development and operations functions. This enables companies like the one in our example to serve their customers and markets in a better way and have a competitive edge.
+
+
+How and and devops got so popular
+
+Accelerated innovation is the major reason that DevOps came into existence. Using DevOps allows companies to develop and deploy products much faster. As we saw in our example, cycle times become significantly longer when there is a wall between development and operations. , On the other hand, When the two are integrated, teams can make required changes easily since they only need to look at the latest work done which is causing problem and not at all of the work done till that moment because of regular which in turn saves a lot of time and make companies deliever product faster.
+
+How Devops serves
+
+Collaboration
+
+As our example has shown, a wall between development and operations often results into chaos because each team is walking around a little blindly. A DevOps approach results in a collaboration between the two teams where they work simultaneously to achieve common goals which  creates an environment where final product efficiently meets its expectaion within a resonable time. In consequence it leads to many other positive outcomes like positive work eniviroment and job satisfaction.
+
+Reliability
+Having reliable systems at scale is a complex problem to solve. Before DevOps updation of an application to serve user better was a thing to worry for comapnies as there was always a chance that updating an application could compromise the quality sometimes.
+To deal with it DevOps offers processes like monitoring and logging help keep track of real-time performance metrics  and tools like continuous integration and  delivery, which makes it now easy to test the functionality of the product with keeping previoss best quality in mind. Allof this together help maintain the reliability of the software.
+
+
+Scalability
+Scalability is one of the top priorities for evey company because for businesses scalability is another word for growth.
+To manage their technology at scale with a wall separating development and operations, DevOps offers opportunities like communication, collaboration, automation , faster performance orientation and  faster plus low-risk releases. All this allows companies to manage and change complex systems more efficiently.
+
+Security
+I think security is the most important aspect of any software system. Devops offers In DevOps you have the power to set up custom pipelines which allows to apply a bunch of rule to test the code before deployment. Things like continuous security checks while involving everyone in testing security, visible security issues to everone and security upgrades with each change elimantes security related issues very effectively.
+
+
+What are the DevOps Tools?
+Certain tools have been developed to automate and facilitate different DevOps processes. While the right tools play a key role in effective DevOps implementation, simply using the tools does not mean DevOps adoption. Tools are only relevant when they are used as the last stage- after the organisation has already adopted the philosophy of DevOps and there is a commitment to execute its best practices.
+
+Although DevOps was not supposed to be about tools, with its evolution in the last few years, a number of technologies that were not part of the original concept have now become an integral part of DevOps. According to research firm Gartner, a linked toolchain of technologies has now become critical if DevOps is to bring about the change it’s meant to. In recent years there has been an explosion of DevOps tools for different DevOps practices. Here are just a few examples.
+
+
+Plan tools like :
+Jira Software, Confluence, SlackRelease Tools
+
+Build tools like :
+Kubernetes, Docker, Ansible, Chef, Docker, Puppet, Terraform
+
+Continuous integration and delivery tools like:
+Jenkins, AWS CodePipeline, Bitbucket Pipelines, CircleCI, Slack, Snyk, Sonarsource
+
+Application and server performance monitoring tools: 
+Appdynamics, DataDog, DynaTrace, Slack, HostedGraphite, Nagios, New Relic, Opsgenie, Pingdom, Splunk, SumoLogic
+
+Coding Tools like :
+Jira, Git, Eclipse
+
+Testing Tools
+JUnit, Selenium, Vagrant
+
+Configuration Management Tools like :
+Puppet, Ansible, Saltstack
+
+
+Monitoring, Virtualization and Containerization Tools
+AWS, OpenStack, Docker, Sensu, Spunk, Nagios
+
+
+
+
+Best Practices for Effective DevOps
+
+Well for different companies devops can play a slightly different roles, but there ares some best practices that should be kept in mind by companies planning to use DevOps.
+
+Active Stakeholder Participation
+While using Devops active stakeholder participation is vital for the success of any software development. Stakeholders should be kept engaged throughout the life of the project. It is very difficult to have a successful software development without the fully engaged cooperation of the stakeholders.
+
+Integrated Configuration Management
+It has many benefits like help in correcting configuration drift, treating infrastructure as a flexible resource, maintaining consistency in the setups. Integrated Configuration management helps operations teams see the potential impact of current solution and new release which helps in making better decisions and changes regarding release.
+
+Automated Testing
+It assist companies with their configuration, integration, and delivery management needs. It helps them save time by automating the entire testing process.
+
+Continuous Deployment
+Continuous Deployment is necessary to achieve rapid software releases. It improve overall productivity by integrating teams and processes with a unified pipeline. It helps in automating the repetitive tasks and focus on actual testing, it makes deployments smooth without compromising security.
+
+Production Support
+As discussed earlier to solve production problems quickly, developers and operations should not be pointing fingers at each other.
+Devops helps by creating collaboration and improve the working relationships between development and operations. By involving developers  in solving production issues to some extent it helps teams to design better solutions.
+
+Application Monitoring
+Its a practice of monitoringsolutions real-time once they are in production. It helps to avoid or minimizing challenges  discussed earlier in article to prevent failures which in turn improve the reliability of the solutions.
+
+
