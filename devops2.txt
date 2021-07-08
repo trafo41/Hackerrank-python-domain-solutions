@@ -1,4 +1,0 @@
-The Key to Effective Adoption of DevOps
-Adoption of organisation wide DevOps is a slippery slope because it requires a philosophical and cultural change combined with a more practical implementation of tools and best practices. If an organisation simply aspires to the philosophy of collaboration and efficiency behind DevOps without doing the hard work of actually executing it on the ground, DevOps will remain a philosophy and nothing more.
-
-At the same time, simply adopting DevOps practices and tools without the philosophy and DevOps culture permeating across the organisation is also futile. The starting point of a successful adoption of DevOps within your organisation should be getting your development and operations teams fully committed to the cause. It is only after they are fully onboard that the best practices and DevOps tools should come into the picture.
